@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rmi.HomeController">
+   <children>
+      <TextField fx:id="hostnameInput" layoutX="494.0" layoutY="259.0" prefHeight="25.0" prefWidth="237.0" />
+      <TextField fx:id="portInput" layoutX="494.0" layoutY="313.0" onAction="#startGame" prefHeight="25.0" prefWidth="237.0" />
+      <Label layoutX="369.0" layoutY="263.0" text="hostname" />
+      <Label layoutX="369.0" layoutY="317.0" prefHeight="17.0" prefWidth="43.0" text="port" />
+      <Button fx:id="confirmButton" layoutX="554.0" layoutY="416.0" mnemonicParsing="false" onAction="#startGame" text="Confirm" />
+   </children>
+</AnchorPane>
