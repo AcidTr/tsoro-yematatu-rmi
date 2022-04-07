@@ -1,4 +1,4 @@
-###[Portuguese]
+### [Portuguese]
 
 # Server
 
@@ -27,7 +27,7 @@ Você poderá escolher o hostname e a porta para se conectar ao servidor. Digite
 Caso queira jogar com você mesmo repita este passo.
 
 
-###[English]
+### [English]
 
 # Server
 
