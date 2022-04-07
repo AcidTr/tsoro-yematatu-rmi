@@ -42,7 +42,7 @@ public class RegisterServer {
             }
 
             new RegisterServer(hostname, port);
-            
+
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("Erro");
